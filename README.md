@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.png" alt="Grid Inertia Trading & Stability Banner" width="100%">
+  <img src="Banner.png" alt="Grid Inertia Trading & Stability Banner" width="100%">
 </p>
 
 
