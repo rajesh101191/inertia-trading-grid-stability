@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.png" width="100%" alt="Grid Inertia Trading and Stability Optimization">
+</p> 
+
 📘 Grid Inertia Analysis & Optimization in Renewable-Rich Power Systems (India)
 
 A Python–MATLAB Integrated Framework for Frequency Stability, Inertia Shortfall Detection, and Metaheuristic Optimization
