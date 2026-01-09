@@ -176,8 +176,124 @@ Libraries:
 Python → pandas, numpy, pdfplumber, pytesseract, matplotlib, seaborn
 
 MATLAB → Control Toolbox, Optimization scripts
+---
 
-👨‍🔬 Author
+## 🚀 How to Run This Project
+
+This repository includes both Python and MATLAB components. Follow the instructions below to execute the full pipeline.
+
+---
+
+## 🐍 1. Python Setup
+
+### Install required libraries
+Make sure you have Python 3.8+ installed. Then run:
+
+```bash
+pip install pytesseract pdfplumber pandas numpy matplotlib openpyxl
+Required external installation
+
+Install Tesseract OCR (needed for text extraction):
+
+Windows: https://github.com/UB-Mannheim/tesseract/wiki
+
+Linux: sudo apt install tesseract-ocr
+
+Run Python scripts (order)
+python 1_extract_frequency_reports.py
+python 2_extract_vre_reports.py
+python 3_clean_merge_frequency.py
+python 4_inertia_shortfall_analysis.py
+
+These scripts correspond to:
+
+OCR extraction
+
+PDF table extraction
+
+Data cleaning
+
+Frequency profile computation
+
+Inertia shortfall detection
+
+📊 2. MATLAB Setup
+Add folder to MATLAB path
+
+Open MATLAB
+
+Go to: Home → Set Path → Add Folder
+
+Select the folder containing the .m files (e.g., matlab_code)
+
+Run MATLAB simulations
+Step 1 — Load case and compute KPIs
+These scripts correspond to:
+
+OCR extraction
+
+PDF table extraction
+
+Data cleaning
+
+Frequency profile computation
+
+Inertia shortfall detection
+
+📊 2. MATLAB Setup
+Add folder to MATLAB path
+
+Open MATLAB
+
+Go to: Home → Set Path → Add Folder
+
+Select the folder containing the .m files (e.g., matlab_code)
+
+Run MATLAB simulations
+Step 1 — Load case and compute KPIs
+simulate_case
+compute_kpis
+Step 2 — Run optimization models
+gwo_inertia_trade
+pso_inertia_trade
+de_inertia_trade
+Step 3 — Plot results
+plot_convergence
+plot_freq_overlays
+plot_tieline_overlay
+KPIs generated:
+
+ITAE, IAE, ISE
+
+Peak |Δf1| and |Δf2|
+
+Tie-line deviations
+
+Settling time
+🔄 Workflow Diagram
+
+Below is the complete workflow used in this project:
+
+Extract GRID-India PDFs
+
+OCR + Table extraction
+
+Clean + Merge data
+
+Frequency deviation analysis
+
+Calculate inertia shortfall
+
+Create simulation cases
+
+MATLAB AGC–LFC modelling
+
+Optimization using GWO, PSO, DE
+
+KPI extraction and comparison
+
+---
+
 
 Dr. Rajesh Kumar
 Assistant Professor — Electrical Engineering / AI & DS
