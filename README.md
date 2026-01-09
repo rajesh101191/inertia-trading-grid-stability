@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="banner.png.png" width="100%" alt="Grid Inertia Trading and Stability Optimization">
-</p> 
+  <img src="banner.png" alt="Grid Inertia Trading & Stability Banner" width="100%">
+</p>
+
 
 📘 Grid Inertia Analysis & Optimization in Renewable-Rich Power Systems (India)
 
