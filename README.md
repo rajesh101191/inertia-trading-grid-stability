@@ -296,6 +296,7 @@ KPI extraction and comparison
 
 
 Dr. Rajesh Kumar
+Prestige Institute of Engineering Management & Research, Indore
 Assistant Professor — Electrical Engineering / AI & DS
 Power system analytics | Renewable energy | Optimization | AI in grids
 📝 Citation
